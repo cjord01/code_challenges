@@ -1,3 +1,3 @@
 # code_challenges
 
-Simple code challenges for Ruby and Python.
+Code challenges for Ruby and Python.
