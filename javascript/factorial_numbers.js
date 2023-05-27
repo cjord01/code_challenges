@@ -2,8 +2,8 @@
 // For example, for the number 6, the factorial would be 1 x 2 x 3 x 4 x 5 x 6 = 720.
 
 function factorialOf(number) {
-    var finalNum = 1;
-    for (var i = 1; i <= number; i++) {
+    let finalNum = 1;
+    for (let i = 1; i <= number; i++) {
         finalNum *= i;
     }
     

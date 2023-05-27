@@ -9,7 +9,7 @@ function isLetter(character) {
   return character >= 'a' && character <= 'z' || character >= 'A' && character <= 'Z';
 }
 
-function count_all(string) {
+function countAll(string) {
    let arr = string.split('');
    let letters = [];
    let digits = [];
@@ -28,8 +28,6 @@ function count_all(string) {
    }
 }
 
-console.log(JSON.stringify(count_all("Hello World")));
-
-console.log(JSON.stringify(count_all("H3ll0 Wor1d")));
-
-console.log(JSON.stringify(count_all("149990")));
+console.log(JSON.stringify(countAll("Hello World")));
+console.log(JSON.stringify(countAll("H3ll0 Wor1d")));
+console.log(JSON.stringify(countAll("149990")));
